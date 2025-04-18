@@ -1,1 +1,7 @@
-This repository contains the code and data for numerically calculating the reproduction rate of each differentiation strategies as well as the simulation for developmental trajectories of strategies of interest. 
+This repository contains the code and data for numerically calculating the reproduction rate of each differentiation strategy and the simulation for developmental trajectories of strategies of interest. 
+The repository has three main parts: code for searching for optimal strategies at given parameters, data for saving the optimal strategies under varying parameters, and code for analyzing the data and producing figures.
+The file "dynamic_heatmap.py" is used to calculate the optimal strategy under parameters b, c, alpha, beta, and n.
+The file data stores the features of optimal strategy under varying conditions.
+The files "*Fig*" are the files that generate figures.
+Please see the numerical calculation of the reproduction rate in the manuscript.
+All the codes are written using Python language (version 3.6).
